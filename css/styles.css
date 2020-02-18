@@ -1,0 +1,39 @@
+body {
+  background-color: #eceef1;
+  padding: 10px 30px 20px 30px ;
+}
+
+.signup-section {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  display: block;
+  float: right;
+}
+
+.signup-left p {
+  font-size: 13px;
+  margin: 5px 0;
+  margin-right: 15px;
+  text-align: center;
+}   
+
+.gray {
+  color: gray;
+}
+
+.blue {
+  color: #0077c5;
+}
+
+.signup-button {
+  background-color: #0077c5;
+  padding: 3px 15px;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+}
