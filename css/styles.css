@@ -1,16 +1,25 @@
 body {
   background-color: #eceef1;
   padding: 10px 30px 20px 30px ;
+  text-align: center;
+  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 40px;
+}
+
+.header-left {
+  height: 60px;
+  position: absolute;
+  top: 10px;
+  right: 30px;
 }
 
 .signup-section {
   display: flex;
   align-items: center;
-}
-
-header {
-  display: block;
-  float: right;
 }
 
 .signup-left p {
@@ -36,4 +45,40 @@ header {
   align-items: center;
   border-radius: 4px;
   border: 1px solid #4c4c4c;
+}
+
+main {
+  width: 100%;
+}
+
+.company-logo-container {
+  display: block;
+  margin: 30px 0px 20px 0px;
+}
+
+.logo {
+  width: 118px;
+}
+
+.signup-header {
+  text-align: center;
+  display: inline-block;
+}
+
+.intuits-projects {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  font-size: 19px;
+  color: #8D9096;
+  padding-bottom: 10px;
+}
+
+.intuits-projects img {
+  width: 23px;
+  margin-right: 4px;
+}
+
+.intuits-projects-name {
+  margin-right: 9px;
 }
