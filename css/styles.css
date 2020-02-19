@@ -159,7 +159,7 @@ main {
   top: 15px;
 }
 
-.form .inputs footer {
+.form .inputs .footer-form {
   font-size: 12px;
   font-style: italic;
   color: #757575;
@@ -167,12 +167,13 @@ main {
   margin: 0 25px;
   line-height: 1.5;
 }
-.form .inputs section {
+.form .inputs .recaptcha {
   background-color: #eceef1;
   padding: 20px;
   margin: 32px -30px -30px;
 }
-.form .inputs section p {
+
+.form .inputs .recaptcha p {
   font-size: 10px;
   color: #8d9096;
   text-align: center;
@@ -193,11 +194,11 @@ main {
   display: flex;
 }
 
-.footer .legal a{
+.footer .legal a {
   margin: 0 5px 5px;
   text-decoration: none;
   color: #505050;
 }
-.footer .info-footer{
-  line-height: 1.20rem;
+.footer .info-footer {
+  line-height: 1.2rem;
 }
