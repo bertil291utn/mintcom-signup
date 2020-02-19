@@ -81,7 +81,7 @@ main {
 
 .form {
   background-color: white;
-  height: 400px;
+  height: auto;
   width: 320px;
   margin: 1% auto;
   border: #c7c7c7 solid 1px;
@@ -125,7 +125,7 @@ main {
   border: 1px solid #c1c5c8;
   padding: 8px 6px;
   border-radius: 3px;
-  width:95%;
+  width: 95%;
   margin-top: 10px;
 }
 
@@ -134,7 +134,6 @@ main {
   padding: 5px 0;
 }
 
-
 .signup-button {
   background-color: #0077c5;
   padding: 4px 87px;
@@ -142,19 +141,63 @@ main {
   display: flex;
   align-items: center;
   border-radius: 4px;
-  border: 1px solid #4c4c4c;
+  border: 0;
   margin: 30px auto;
   font-size: 15.75px;
+  box-shadow: 0px 1px 1px 0px #000000bf;
 }
 
 .password-container {
   position: relative;
 }
 
-.password-icon{
+.password-icon {
   width: 20px;
   position: absolute;
   right: 6px;
   top: 15px;
 }
 
+.form .inputs footer {
+  font-size: 12px;
+  font-style: italic;
+  color: #757575;
+  text-align: center;
+  margin: 0 25px;
+  line-height: 1.5;
+}
+.form .inputs section {
+  background-color: #eceef1;
+  padding: 20px;
+  margin: 32px -30px -30px;
+}
+.form .inputs section p {
+  font-size: 10px;
+  color: #8d9096;
+  text-align: center;
+}
+
+.footer {
+  font-size: 12px;
+  color: #505050;
+  margin-top: 25px;
+  padding: 0 250px;
+}
+
+.footer .legal-container {
+  text-align: center;
+  display: inline-block;
+}
+
+.footer .legal {
+  display: flex;
+}
+
+.footer .legal a{
+  margin: 0 5px 5px;
+  text-decoration: none;
+  color: #505050;
+}
+.footer .info-footer{
+  line-height: 1.20rem;
+}
