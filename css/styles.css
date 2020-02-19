@@ -1,8 +1,8 @@
 body {
   background-color: #eceef1;
-  padding: 10px 30px 20px 30px ;
+  padding: 10px 30px 20px 30px;
   text-align: center;
-  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 header {
@@ -27,14 +27,10 @@ header {
   margin: 5px 0;
   margin-right: 15px;
   text-align: center;
-}   
+}
 
 .gray {
   color: gray;
-}
-
-.blue {
-  color: #0077c5;
 }
 
 .signup-button {
@@ -70,7 +66,7 @@ main {
   align-items: center;
   margin: auto;
   font-size: 19px;
-  color: #8D9096;
+  color: #8d9096;
   padding-bottom: 10px;
 }
 
@@ -81,4 +77,51 @@ main {
 
 .intuits-projects-name {
   margin-right: 9px;
+}
+
+.form {
+  background-color: white;
+  height: 400px;
+  width: 300px;
+  margin: 1% auto;
+  border: #c7c7c7 solid 1px;
+  border-radius: 2px;
+  padding: 30px;
+}
+
+.form > h3 {
+  color: #4c4c4c;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.form .title {
+  font-size: 14px;
+  color: #4c4c4c;
+  padding-top: 20px;
+}
+
+.form .subtitle {
+  font-size: 12px;
+  padding: 5px 0 20px;
+}
+
+.blue {
+  color: #0077c5;
+}
+
+.form .inputs {
+  font-size: 14px;
+  color: #404040;
+}
+
+.form .inputs label {
+  margin-bottom: 6px;
+}
+
+.form .inputs input {
+  border: 1px solid #c1c5c8;
+  padding: 5px 6px;
+  border-radius: 3px;
+  width:100%;
 }
