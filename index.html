@@ -17,7 +17,7 @@
                     <p class="gray">Already have an Intuit account?</p>
                     <p class="blue"> I forgot my User ID or Password</p>
                 </div>
-                <button class="signup-button">
+                <button class="signup-button-header">
                     <img width="25" src="assets/signup-icon.PNG" alt="signup-icon">
                     Sign In
                 </button>
@@ -47,12 +47,17 @@
             </p>
 
             <div class="inputs">
-                <form action="" method="post">
-                    <label>Email address</label> <br>
-                    <input type="text">
-
-
-                
+                <form action="" method="POST">
+                    <label class='labels'>Email address</label>
+                    <input type="email" required>
+                    <label class='labels'>Phone (recommended)</label>
+                    <input type="tel">
+                    <p>Standard call, messaging or data rates may apply.</p>
+                    <div class='password-container'>
+                        <label class='labels'>Password</label><span class='password-icon'><img class='password-icon' src='assets/password-icon.png' alt='password-icon'></span>
+                        <input type='password'>
+                    </div>
+                    <button class='signup-button'><img width='30' src='assets/signup-icon.PNG' alt='submit-icon'>Create Account</button>
                 </form>
             </div>
 

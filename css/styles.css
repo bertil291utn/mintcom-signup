@@ -33,7 +33,7 @@ header {
   color: gray;
 }
 
-.signup-button {
+.signup-button-header {
   background-color: #0077c5;
   padding: 3px 15px;
   color: white;
@@ -82,7 +82,7 @@ main {
 .form {
   background-color: white;
   height: 400px;
-  width: 300px;
+  width: 320px;
   margin: 1% auto;
   border: #c7c7c7 solid 1px;
   border-radius: 2px;
@@ -103,7 +103,7 @@ main {
 
 .form .subtitle {
   font-size: 12px;
-  padding: 5px 0 20px;
+  padding: 5px 0 0;
 }
 
 .blue {
@@ -116,8 +116,9 @@ main {
   text-align: left;
 }
 
-.form .inputs label {
-  margin-bottom: 6px;
+.labels {
+  display: block;
+  margin-top: 35px;
 }
 
 .form .inputs input {
@@ -125,6 +126,35 @@ main {
   padding: 8px 6px;
   border-radius: 3px;
   width:95%;
-  margin-top: 3%;
- 
+  margin-top: 10px;
 }
+
+.inputs form p {
+  font-size: 10px;
+  padding: 5px 0;
+}
+
+
+.signup-button {
+  background-color: #0077c5;
+  padding: 4px 87px;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  margin: 30px auto;
+  font-size: 15.75px;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-icon{
+  width: 20px;
+  position: absolute;
+  right: 6px;
+  top: 15px;
+}
+
