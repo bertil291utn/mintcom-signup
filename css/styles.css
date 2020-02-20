@@ -50,7 +50,7 @@ main {
 
 .company-logo-container {
   display: block;
-  margin: 30px 0px 20px 0px;
+  margin: 30px 0 20px 0;
 }
 
 .logo {
@@ -146,7 +146,7 @@ main {
   border: 0;
   margin: 30px auto;
   font-size: 15.75px;
-  box-shadow: 0px 1px 1px 0px #000000bf;
+  box-shadow: 0 1px 1px 0 #000000bf;
 }
 
 .password-container {
@@ -168,6 +168,7 @@ main {
   margin: 0 25px;
   line-height: 1.5;
 }
+
 .form .inputs .recaptcha {
   background-color: #eceef1;
   padding: 20px;
@@ -200,6 +201,7 @@ main {
   text-decoration: none;
   color: #505050;
 }
+
 .footer .info-footer {
   line-height: 1.2rem;
 }
