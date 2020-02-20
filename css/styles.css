@@ -1,0 +1,207 @@
+body {
+  background-color: #eceef1;
+  padding: 10px 30px 20px 30px;
+  text-align: center;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 40px;
+}
+
+.header-left {
+  height: 60px;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+
+.signup-section {
+  display: flex;
+  align-items: center;
+}
+
+.signup-left p {
+  font-size: 12px;
+  margin: 5px 0;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.gray {
+  color: #404040;
+}
+
+.signup-button-header {
+  background-color: #0077c5;
+  padding: 3px 17px;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  font-size: 13.5px;
+}
+
+main {
+  width: 100%;
+}
+
+.company-logo-container {
+  display: block;
+  margin: 30px 0 20px 0;
+}
+
+.logo {
+  width: 118px;
+}
+
+.signup-header {
+  text-align: center;
+  display: inline-block;
+}
+
+.intuits-projects {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  font-size: 19px;
+  color: #8d9096;
+  padding-bottom: 10px;
+}
+
+.intuits-projects img {
+  width: 23px;
+  margin-right: 4px;
+}
+
+.intuits-projects-name {
+  margin-right: 9px;
+}
+
+.form {
+  background-color: white;
+  height: auto;
+  width: 320px;
+  margin: 1% auto;
+  border: #c7c7c7 solid 1px;
+  border-radius: 2px;
+  padding: 30px;
+}
+
+.form > h3 {
+  color: #4c4c4c;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.form .title {
+  font-size: 14px;
+  color: #4c4c4c;
+  padding-top: 20px;
+}
+
+.form .subtitle {
+  font-size: 12px;
+  padding: 5px 0 0;
+  text-decoration: none;
+}
+
+.blue {
+  color: #0077c5;
+}
+
+.form .inputs {
+  font-size: 14px;
+  color: #404040;
+  text-align: left;
+}
+
+.labels {
+  display: block;
+  margin-top: 35px;
+}
+
+.form .inputs input {
+  border: 1px solid #c1c5c8;
+  padding: 8px 6px;
+  border-radius: 3px;
+  width: 95%;
+  margin-top: 10px;
+}
+
+.inputs form p {
+  font-size: 10px;
+  padding: 5px 0;
+}
+
+.signup-button {
+  background-color: #0077c5;
+  padding: 4px 87px;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  border: 0;
+  margin: 30px auto;
+  font-size: 15.75px;
+  box-shadow: 0 1px 1px 0 #000000bf;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-icon {
+  width: 20px;
+  position: absolute;
+  right: 6px;
+  top: 15px;
+}
+
+.form .inputs .footer-form {
+  font-size: 12px;
+  font-style: italic;
+  color: #757575;
+  text-align: center;
+  margin: 0 25px;
+  line-height: 1.5;
+}
+
+.form .inputs .recaptcha {
+  background-color: #eceef1;
+  padding: 20px;
+  margin: 32px -30px -30px;
+}
+
+.form .inputs .recaptcha p {
+  font-size: 10px;
+  color: #8d9096;
+  text-align: center;
+}
+
+.footer {
+  font-size: 12px;
+  color: #505050;
+  margin-top: 25px;
+}
+
+.footer .legal-container {
+  text-align: center;
+  display: inline-block;
+}
+
+.footer .legal {
+  display: flex;
+}
+
+.footer .legal a {
+  margin: 0 5px 5px;
+  text-decoration: none;
+  color: #505050;
+}
+
+.footer .info-footer {
+  line-height: 1.2rem;
+}
