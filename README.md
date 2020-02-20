@@ -11,6 +11,10 @@ In this project, we rebuilded the form used by Mint.com for signing up new users
 - HMTL5
 - CSS
 
+## Live demo
+
+<a href="https://quizzical-gates-ccc83e.netlify.com" target="_blank">Check it out</a>💻
+
 ## Getting Started
 
 Just open/double click index.html
